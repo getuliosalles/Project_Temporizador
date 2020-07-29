@@ -1,0 +1,12 @@
+#cronometro {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    padding: 20px;
+    display: inline-block;
+    width: 180px;
+    max-width: 100%;
+    
+}
