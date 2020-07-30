@@ -2,15 +2,67 @@ body{
     background-color: rgb(104, 103, 103);
 }
 
-#cronometro {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-    background-color: black;
-    border-radius: 4px;
-    padding: 20px;
-    display: inline-block;
-    width: 180px;
-    max-width: 100%;
+.mostrador {
+    position: relative;
+    display:inline-block;
+    text-align: center;
     
+    
+    /* font-weight: bold; */
+    /* color: white; */
+    background-color:gray;
+    border-radius: 4px;
+    padding-top: 20px;
+    width: 500px;
+    height: 200px;
+    max-width: 100%;
+    /* margin-top: 50px; */
+    margin: 50px 50%;
+}
+.hora{
+    /* width: 100px; */
+    text-align: center;
+    display: inline;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    font-size: 50px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 20px
+
+
+
+}
+
+.minutos{
+    text-align: center;
+    display: inline;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    font-size: 50px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 20px
+}
+
+.segundos{
+    text-align: center;
+    display: inline;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    font-size: 50px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 20px
+}
+.miliseg{
+    border-radius: 3px;
+    text-align: center;
+    display: inline;
+    color:brown;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    font-size: 30px;
+    background-color: whitesmoke;
+    padding: 10px
+
 }
