@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(104, 103, 103);
+}
+
 #cronometro {
     font-size: 24px;
     font-weight: bold;
